@@ -1,0 +1,127 @@
+#SearchDiv{
+    background-color: white;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+#MenuDiv{
+    display: flex;
+}
+#MainDiv{
+    width: 1263px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#menuDivInner{
+    height: 300px;
+    background-color:rgb(196, 196, 196);
+    display: flex;
+    flex-wrap: wrap;
+    width: 70px;
+    padding: 100px;
+    margin-left: 5px;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-radius: 10px;
+}
+h3:hover{
+    border-bottom: 1px solid gray;
+}
+h3{
+    font-size: 25px;
+}
+.cardDiv{
+    border: 1px solid gray;
+    box-shadow: 10px 7px 1px 1px rgba(128, 128, 128, 0.478);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 220px;
+    margin: 60px;
+    border-radius: 10px;
+    height: auto;
+}
+.imgCard{
+    width: 200px;
+}
+#searchtext{
+    margin-left: 300px;
+    height: 40px;
+    width: 340px;
+    border: none;
+    border-bottom: 1px solid blueviolet;
+    margin-bottom: 10px;
+    outline: none;
+}
+#searchtext:hover{
+    border-bottom: 3px solid blueviolet;
+}
+#buttonSearch{
+    margin-left: 7px;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    font-style: inherit;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+}
+#buttonSearch:hover{
+    border: 3px solid blueviolet;
+}
+#NameMarket{
+    position: absolute;
+    margin-left: 33px;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+  background-color: aqua;
+}
+#signIn{
+    margin-left: 540px;
+    color: white;
+    font-size: 20px;
+}
+#signInLink{
+    margin-left: 36%;
+    color: black;
+    text-decoration: none;
+    width: 200px;
+    padding-bottom: 13px;
+}
+#basketImg{
+    width: 40px;
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 20px;
+}
+#basketImg:hover{
+    border-bottom: 2px solid blueviolet;
+}
+#signInLink:hover{
+    border-bottom: 2px solid blueviolet;
+}
+#footerStyle{
+    background-color: black;
+    height: 300px;
+    margin-top: 300px;
+}
+#ModalDiv{
+    /* display: flex;
+    flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    
+}
+#inBusket{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 350px;
+    /* height: 150px; */
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#titleBusket{
+    margin-left: 20px;
+}
